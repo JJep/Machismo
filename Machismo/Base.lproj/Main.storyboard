@@ -201,7 +201,6 @@
                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outletCollection property="cardButton" destination="9bK-Zq-Ocu" id="cbZ-RR-cdq"/>
                         <outletCollection property="cardButton" destination="uZh-b3-D64" id="lfM-pZ-70P"/>
                         <outletCollection property="cardButton" destination="8F5-go-LxE" id="GfA-eT-OCx"/>
                         <outletCollection property="cardButton" destination="TPo-O5-oHF" id="22O-P1-QXw"/>
@@ -217,6 +216,7 @@
                         <outletCollection property="cardButton" destination="xCG-ch-mcE" id="BbN-PA-fLt"/>
                         <outletCollection property="cardButton" destination="fG7-jB-dGd" id="o4B-jk-inU"/>
                         <outletCollection property="cardButton" destination="mSv-RH-Ztm" id="2Bx-Na-PZ0"/>
+                        <outletCollection property="cardButton" destination="9bK-Zq-Ocu" id="iNg-4H-jru"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
