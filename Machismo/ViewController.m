@@ -26,14 +26,6 @@
     return _game;
 }
 
--(Deck *)deck
-{
-    if (!_deck) {
-        return [self createDeck];
-    }
-    return _deck;
-}
-
 -(Deck *)createDeck
 {
     return [[PlayingCardDeck alloc] init];
@@ -41,8 +33,8 @@
 
 - (IBAction)touchCardButton:(UIButton *)sender
 {
-    NSUInteger cardIndex = [self.cardButton indexOfObject:sender];
-    [self.game chooseCardAtIndex:cardIndex];
+    NSUInteger chosenButtonIndex = [self.cardButton indexOfObject:sender];
+    [self.game chooseCardAtIndex:chosenButtonIndex];
     [self updateUI];
     
 }

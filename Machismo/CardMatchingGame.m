@@ -46,17 +46,16 @@ static const int COST_TO_CHOOSE = 1;
                     }
                     break;
                 }
-                self.score -= COST_TO_CHOOSE;
-                card.chosen = YES;
-                
             }
+            self.score -= COST_TO_CHOOSE;
+            card.chosen = YES;
         }
     }
 }
 
 - (instancetype)initWithCardCount:(NSInteger)count usingDeck:(Deck *)deck
 {
-    self = [super init];
+    self = [super init];    //super's designed initializer
     if (self) {
         for (int i = 0; i < count; i++) {
             Card *card = [deck drawRandomCard];
